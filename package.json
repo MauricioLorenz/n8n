@@ -15,5 +15,8 @@
   "dependencies": {
     "music-metadata": "^11.11.2",
     "n8n": "^2.6.4"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
