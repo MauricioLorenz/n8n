@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "set N8N_USER_FOLDER=./n8n_data && set NODE_FUNCTION_ALLOW_EXTERNAL=music-metadata && set NODES_EXCLUDE=[] && set PATH=./bin/ffmpeg-master-latest-win64-gpl/bin;%PATH% && n8n start",
+    "start": "n8n start",
+    "start:windows": "set N8N_USER_FOLDER=./n8n_data && set NODE_FUNCTION_ALLOW_EXTERNAL=music-metadata && set NODES_EXCLUDE=[] && set PATH=./bin/ffmpeg-master-latest-win64-gpl/bin;%PATH% && n8n start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
